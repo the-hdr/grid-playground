@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: pink;
+}
+
+.grand-parent
+{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+.parent
+{
+    display: grid;
+    gap: 5px;
+
+    flex-grow: 1;
+
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+.parent-mid
+{
+    display: grid;
+    gap: 5px;
+
+    grid-template-columns: 1fr 4fr;
+}
+
+.box
+{
+    border: 2px solid black;
+    background-color: rgb(147, 30, 147);
+}
