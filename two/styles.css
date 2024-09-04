@@ -1,0 +1,21 @@
+body
+{
+    background-color: pink;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    
+    gap: 100px;
+}
+
+.grid-elements
+{
+    background-color: purple;
+
+    width: 100px;
+    height: 100px;
+}
